@@ -1,6 +1,6 @@
 # Gabriel Amaral - 121069963
 # Mariana Furriel da Silva Siqueira - 121088886
-# Rafaela 
+# Rafaela de Carvalho Machado Pinheiro - 121038166
 
 # Rode o código para visualizar o passo a passo da fatoração
 
@@ -38,7 +38,7 @@ print(matrizB)
 print("----")
 print(matrizC)
 
-#Diminuindo as linhas dos seus 
+#Diminuindo as linhas para zerar o restante da coluna
 for x in range(1,4):
   soma_subtrai(matrizB, matrizC, 0, x, matrizC[x][0])
 print("Matriz C pós subtração")
@@ -86,5 +86,3 @@ print(matrizC)
 # print(matriz1)
 # print("\n")
 # print(matriz2)
-
-
